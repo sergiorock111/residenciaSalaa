@@ -1,0 +1,24 @@
+#include <iostream>
+#include <string>
+
+
+using namespace std;
+
+int main(void){
+string nome;
+int anoNascimento;
+cout << "digite o seu nome:";
+cin >> nome;
+cout << "bom dia," << nome << "Tenha um bom curso ";
+cout << endl;
+cout << nome <<",voce nasceu em que ano? ";
+cin >> anoNascimento;
+cout << "considerando que estamos em 2023, ou voce tem"
+    << 2023-anoNascimento
+    <<"ano, ou esta proximo de fazer."
+    << endl;
+
+    return 0;
+    
+
+}
