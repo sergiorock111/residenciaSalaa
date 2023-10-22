@@ -149,7 +149,6 @@ class Veiculo{
 
 };
 
-
 int MenuGeral()
 {
     int escolha;
